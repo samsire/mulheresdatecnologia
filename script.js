@@ -1,6 +1,6 @@
-    const controls = document.querySelectorAll(button);
+    const controls = document.querySelectorAll("control"");
     let currentTtem = 0;
-    const items = document.querySelectorAll(item);
+    const items = document.querySelectorAll("item);
     const maxitems = items.length;
 
     controls.forEach((control) => {
