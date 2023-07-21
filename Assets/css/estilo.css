@@ -3,15 +3,23 @@
   padding: 0;
   box-sizing: border-box;
   padding: 45px;
+
+  @media screen and (max-width: 480px){
+   justify-content: center;
+   box-sizing: border-box;
 }
 .body, html {
-   background: rgb(252, 252, 252);
-   height: 400px;
+   background: white;
    width: 100%;
+   max-width: 900px;
    font-family: 'DM Serif Display', serif;
-   font-family: 'Nanum Myeongjo', serif;
+   font-family: 'Raleway', serif;
    text-align: center;
    justify-content: space-between;  
+   text-justify: auto;
+   margin: 0 auto;
+   padding: 0;
+   flex-wrap: wrap;
   } 
 .header {
   background-color: azure;
@@ -31,6 +39,12 @@
    justify-content: center;
    text-align: center;
 }
+
+  @media screen and (max-width: 685px) {
+    .imagem__capa, .imagem__capa1.imagem1, .imagem2{
+        display: block;
+    }
+  }
 .main {
    width: 100%;
    height: auto;
@@ -42,12 +56,14 @@
    justify-content: center;
    color:black;
    margin-top: auto;
+   flex-wrap: wrap;
 }
 .container {
    position: relative;
    max-width: 500px;
    width: 100%;
    margin: 0 auto;
+   display: flex;
    
 }
 .gallery-wrapper {
@@ -104,11 +120,12 @@
       height:max-content;
       box-sizing: border-box;
       margin-top:5px;
+      display: flex;
    } 
    .imagem__capa1 {
    width: 100%;
    height:max-content;
-   display:inline-flex;
+   display:flex;
    align-items: flex-end;
    width: 35%;
    margin-top: 30px;
@@ -130,27 +147,23 @@
     width: 100%;
     box-sizing: border-box;
     max-width: 800px;
-    padding: 0px;
+    padding: 2px;
     margin-top: auto;
-    text-align: justify;
-    text-align: center;
     display: block;
     margin: 25px auto ;
   }
   .descricao2 {
     justify-items: center;
     text-align: center;
+    display: flex;
 
   }
     .imagem1 {
-      width: 400px;
+      width: 300px;
       max-width: 100%;
-      margin-top: 20px;
-      justify-items: center;
-      text-align: center;
-      margin: 0px;
+      margin: 0;
       padding: 0;
-
+      display: flex;
     }
     .imagem2 {
       width: 600px;
@@ -166,14 +179,14 @@
         }
 
     .legenda1 {
-      font-size: 14px;
-      font-family: 'Nanum Myeongjo', serif;
+      font-size: 12px;
+      font-family: 'Raleway', serif;
       text-align: center;
 
     }
 
   .titulo2 {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Raleway', serif;
     font-size: 28px;
     text-align: center;
     align-items: center;
@@ -181,49 +194,54 @@
     justify-content: center;
     margin-top: 25px;
     margin-left: 25px;
+    display: flex;
   }
 
   .texto1 {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Raleway', serif;
     margin-top: 20px;
     margin-left: 20px;
     justify-content: center;
     text-align: center;
     align-items: center;
     line-height: 150%;
+    display: flex;
   }
   
   .texto2 {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Raleway', serif;
     margin-top: 20px;
     margin-left: 20px;
     justify-content: center;
     text-align: center;
     align-items: center;
     line-height: 150%;
+    display: flex;
   }
   
   .texto3 {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Raleway', serif;
     margin-top: 20px;
     margin-left: 20px;
     justify-content: center;
     text-align: center;
     align-items: center;
     line-height: 150%;
+    display: flex;
   }
   .texto4 {
-    font-family: 'Nanum Myeongjo', serif;
-    margin-top: 20px;
-    margin-left: 20px;
+    font-family: 'Raleway', serif;
+    margin-top: 2'Raleway', serif;
+    margin-left: 'Raleway', serif;
     justify-content: center;
     text-align: center;
     align-items: center;
     line-height: 150%;
+    display: flex;
   }
 
   .texto5 {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Raleway', serif;
     margin-top: 30px;
     margin-left: 0;
     justify-content: center;
@@ -232,6 +250,7 @@
     line-height: 150%;
     font-size:  15px;
     font-style: italic;
+    display: flex;
   }
   .texto6 {
     font-family: 'DM Serif Display', serif;
@@ -240,12 +259,13 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    line-height: 150%;
+    line-height: 100%;
     font-size:  15px;
     font-style: italic;
+    display: flex;
   }
   .texto7 {
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Raleway', serif;
     margin-top: 30px;
     margin-left: 30px;
     justify-content: center;
@@ -253,6 +273,7 @@
     align-items: center;
     line-height: 150%;
     font-size:  15px;
+    display: flex;
   }
 
   .titulo3 {
@@ -263,6 +284,7 @@
     justify-content: center;
     margin-top: 45px;
     margin-left: 25px;
+    display:flex
   }
 
   .section {
@@ -271,6 +293,7 @@
     max-width: 100%;
     flex-direction: column;
     justify-content: space-between;
+    
 }
 
   .section__titulo {
@@ -371,3 +394,4 @@
       align-content: center;
     }
   }
+}
