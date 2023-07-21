@@ -6,15 +6,17 @@
 }
 .body, html {
    background: rgb(252, 252, 252);
-   height: 500px;
+   height: 400px;
    width: 100%;
    font-family: 'DM Serif Display', serif;
    font-family: 'Nanum Myeongjo', serif;
-   justify-content: center;
    margin: 0;
+   padding: 0;
    text-align: center;
    margin-left: auto;
    margin-left: auto;
+   justify-content: space-between;
+   height: 100vh;
   } 
 .header {
   background-color: azure;
@@ -46,7 +48,8 @@
 }
 .container {
    position: relative;
-   max-width: 640px;
+   max-width: 500px;
+   width: 100%;
    margin: 0 auto;
    
 }
@@ -143,7 +146,7 @@
 
   }
     .imagem1 {
-      width: 600px;
+      width: 400px;
       max-width: 100%;
       margin-top: 20px;
       justify-items: center;
