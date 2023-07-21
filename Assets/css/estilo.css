@@ -58,6 +58,8 @@
    gap: 15px;
    overflow: hidden;
    object-fit: cover;
+   max-width: 100%;
+  width: 500px;
 }
 .gallery-wrapper::-webkit-scrollbar {
   display: none;
