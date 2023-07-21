@@ -11,7 +11,11 @@
 .body, html {
    background: white;
    width: 100%;
+<<<<<<< Updated upstream
    max-width: 900px;
+=======
+   max-width: 100%;
+>>>>>>> Stashed changes
    font-family: 'DM Serif Display', serif;
    font-family: 'Raleway', serif;
    text-align: center;
@@ -161,7 +165,11 @@
     .imagem1 {
       width: 300px;
       max-width: 100%;
+<<<<<<< Updated upstream
       margin: 0;
+=======
+      margin: 6px;
+>>>>>>> Stashed changes
       padding: 0;
       display: flex;
     }
