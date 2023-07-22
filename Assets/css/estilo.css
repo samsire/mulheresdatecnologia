@@ -255,7 +255,6 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 10px;
     margin-top: 10px;
   }
   .texto7 {
@@ -264,12 +263,9 @@
     display: flex;
     justify-content: center;
     text-align: center;
-    margin: 10px;
     margin-top: 10px;
     justify-content: center;
     text-align: center;
-    margin: 10px;
-    margin-top: 10px;
   }
 
   .titulo3 {
