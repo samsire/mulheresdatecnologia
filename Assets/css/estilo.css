@@ -1,45 +1,47 @@
 * {
-  margin: 0 auto;
+  margin: 0 ;
   padding: 0;
   box-sizing: border-box;
-  padding: 40px;
-  margin-left: 10px;
-  margin-right: 0;
-
-
+  padding: 0;
+  align-items: center;
+  
+}
+@media only screen and (max-device-width: 900px) {
+}
 .body, html {
-   background: white;
-   width: 100%;
-   max-width: 900px;
-   max-width: 100%;
-   font-family: 'DM Serif Display', serif;
-   font-family: 'Raleway', serif;
-   text-align: center;
-   justify-content: space-between;  
-   text-justify: auto;
-   margin: 0 auto;
-   padding: 0;
-   flex-wrap: wrap;
+  background: white;
+  font-family: 'DM Serif Display', serif;
+  font-family: 'Raleway', serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   } 
 .header {
-  background-color: azure;
-   box-sizing: border-box;
-   align-items: center;
-   width: 100%;
-   max-width: 800px;
-   padding: 0;
-   justify-content: flex-end;
-   display: inline;
-}
+   background-color:rgb(233, 127, 206);
+   overflow: hidden;
+   
+   }
 .header--topo {
-  background-color:rgb(233, 127, 206);
-  block-size: auto;
-  border: solid 10px rgb(233, 127, 206);
-   font-size: 16px;
-   justify-content: center;
+   background-color:rgb(233, 127, 206);
+   padding: 10px;
    text-align: center;
-}
+   width: 100%;
+    max-width: 900px;
+   padding: 8px;
+    margin: 0 auto;
+   display: flex;
+    justify-content: flex-end;    
+   }
+   .p {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
 
+   }
   @media screen and (max-width: 685px) {
     .imagem__capa, .imagem__capa1.imagem1, .imagem2{
         display: block;
@@ -48,16 +50,14 @@
 .main {
    width: 100%;
    height: auto;
-   max-width: 100%;
-   padding: 3px;
-   box-sizing: border-box;
-   display: inline-flex;
+   max-width: 100%;   
    align-items: center;
    justify-content: center;
    color:black;
    margin-top: auto;
    flex-wrap: wrap;
    font-size: 25px;
+   text-decoration: none;
 }
 .container {
    position: relative;
@@ -132,6 +132,10 @@
    margin-top: 30px;
    }
 
+   .img {
+    box-sizing: border-box;
+    display: flex;
+   }
   .titulo1 {
     font-family: 'DM Serif Display', serif;
     font-size: 50px;
@@ -161,12 +165,10 @@
 
   }
     .imagem1 {
-      width: 300px;
       max-width: 100%;
-      margin: 6px;
-      padding: 0;
-      display: flex;
-      align-items: center;
+      width: 500px;
+      margin-top: 10px;
+      
     }
     .imagem2 {
       width: 600px;
@@ -208,12 +210,12 @@
     align-items: center;
     line-height: 150%;
     display: flex;
-    font-size: 20px;
+    font-size: 15px;
   }
   
   .texto2 {
     font-family: 'Raleway', serif;
-    font-size: 20px;
+    font-size: 15px;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -229,6 +231,7 @@
     align-items: center;
     line-height: 150%;
     display: flex;
+    font-size: 15px;
   }
   .texto4 {
     font-family: 'Raleway', serif;
@@ -395,4 +398,3 @@
       align-content: center;
     }
   }
-}
