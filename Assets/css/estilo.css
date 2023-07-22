@@ -1,10 +1,6 @@
 * {
   margin: 0 ;
   padding: 0;
-  box-sizing: border-box;
-  padding: 0;
-  align-items: center;
-  
 }
 @media only screen and (max-device-width: 900px) {
 }
@@ -20,20 +16,18 @@
 .header {
    background-color:rgb(233, 127, 206);
    overflow: hidden;
-   
    }
 .header--topo {
-   background-color:rgb(233, 127, 206);
+   background-color:solid 5px rgb(233, 127, 206);
    padding: 10px;
    text-align: center;
    width: 100%;
-    max-width: 900px;
    padding: 8px;
-    margin: 0 auto;
+   margin: 0 auto;
    display: flex;
-    justify-content: flex-end;    
+   justify-content: center;    
    }
-   .p {
+   /*/.p {
     align-items: center;
     text-align: center;
     padding: 0;
@@ -41,7 +35,7 @@
     align-items: center;
     width: max-content;
 
-   }
+   }/*/
   @media screen and (max-width: 685px) {
     .imagem__capa, .imagem__capa1.imagem1, .imagem2{
         display: block;
@@ -133,8 +127,7 @@
    }
 
    .img {
-    box-sizing: border-box;
-    display: flex;
+    align-items: center;
    }
   .titulo1 {
     font-family: 'DM Serif Display', serif;
@@ -157,24 +150,25 @@
     display: block;
     margin: 25px auto ;
     font-size: 20px;
+
   }
   .descricao2 {
     justify-items: center;
     text-align: center;
-    display: flex;
-
+    align-items: center;
   }
     .imagem1 {
       max-width: 100%;
       width: 500px;
       margin-top: 10px;
+      align-items: center;
       
     }
     .imagem2 {
       width: 600px;
       max-width: 100%;
       margin-top: 10px;
-
+      align-items: center;
     }
         .imagem__capa1 {
           width: 500px;
@@ -199,85 +193,83 @@
     justify-content: center;
     margin-top: 25px;
     margin-left: 25px;
-    display: flex;
+   
   }
-
+.p {
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+}
   .texto1 {
     font-family: 'Raleway', serif;
     margin-top: 20px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    line-height: 150%;
-    display: flex;
     font-size: 15px;
+    justify-content: center;
+  text-align: center;
+  margin: 10px;
+
   }
   
   .texto2 {
     font-family: 'Raleway', serif;
     font-size: 15px;
+    margin-top: 20px;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    line-height: 150%;
-    display: flex;
+    margin: 10px;
+
   }
   
   .texto3 {
     font-family: 'Raleway', serif;
-    margin-left: 20px;
+    font-size: 15px;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    line-height: 150%;
-    display: flex;
-    font-size: 15px;
+    margin: 10px;
+    margin-top: 10px;
   }
   .texto4 {
     font-family: 'Raleway', serif;
     font-size: 15px;
-    margin-top: 20px;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    line-height: 150%;
-    display: flex;
+    margin: 10px;
+    margin-top: 10px;
   }
 
   .texto5 {
     font-family: 'Raleway', serif;
-    font-size: 12px;
-    margin-top: 20px;
     justify-content: center;
     text-align: center;
-    align-items: center;
-    line-height: 150%;
+    margin: 10px;
+    margin-top: 10px;
     font-size:  15px;
     font-style: italic;
     display: flex;
   }
   .texto6 {
     font-family: 'DM Serif Display', serif;
-    margin-top: 50px;
-    margin-left: 30px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    line-height: 100%;
     font-size:  15px;
     font-style: italic;
     display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
   }
   .texto7 {
     font-family: 'Raleway', serif;
-    margin-top: 30px;
-    margin-left: 30px;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    line-height: 150%;
     font-size:  15px;
     display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    margin-top: 10px;
   }
 
   .titulo3 {
@@ -306,7 +298,7 @@
     box-sizing: border-box;
     color:rgb(233, 127, 206);
     width: 100%;
-    max-width: 90%;
+    max-width: 100%;
     padding: 0;
     margin: 0 auto;
 
