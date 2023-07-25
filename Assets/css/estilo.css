@@ -15,24 +15,20 @@
   } 
 .header {
    background-color:#e97fce;
-   overflow: hidden;
+   width: 100%;
+   margin: auto;
+   display: flex;
+   justify-content: center;
    }
 .header--topo {
-   background-color:solid 5px #e97fce;
-   padding: 10px;
-   text-align: center;
-   width: 100%;
-   padding: 8px;
-   margin: 0 auto;
-   display: flex;
-   justify-content: center;    
+   padding: 15px;
    }
 
 .main {
   align-items: center;
   justify-content: center;
-  display: flex;
   margin: auto;
+  display: flex;
 }
 .carousel {
   overflow: hidden;
@@ -97,18 +93,15 @@
     opacity: 1;
     transform: opacity linear;
   }
-}
-  .imagem__capa {
-    width: 100%;
 } 
+p {
+  font-size: clamp(1em, 1em + 1vw, 1.5em);
+}
 
-   .imagem__capa1 {
+   .imagem__capa {
+    display: flex;
     width: 100%;
-    height:max-content;
-    display:flex;
-    align-items: flex-end;
-    width: 35%;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
    .img {
@@ -117,7 +110,7 @@
 
   .titulo1 {
     font-family: 'DM Serif Display', serif;
-    font-size: 50px;
+    font-size: 80px;
     text-align: center;
     margin: 0 auto;
     margin-top: 60px;
@@ -164,13 +157,6 @@
       text-align: center;
       margin: 10px;
     }
-
-  .imagem__capa1 {
-     width: 500px;
-     max-width: 100%;
-     object-fit: cover;
-     object-position: bottom;
-  }
 
     .legenda1 {
       font-size: 12px;
@@ -298,7 +284,7 @@
     background-color:#e97fce;
     opacity: 90%;
     justify-items: center;
-    height: 160px;
+    height: 100vh;
     width: 100%;
     margin-top: 0 auto;
     height: 150px;
