@@ -21,23 +21,38 @@
         <div class="descricao">
           <img class="imagem__capa" alt="capa" src="Imagens/imagem1.png">  
           <h2 class="titulo1">Kathleen Booth</h2>
-          <div class="container">
-            <button class="arrow-left control" aria-label="Previous image">◀</button>
-            <button class="arrow-right control" aria-label="Next Image">▶</button>
-            <div class="gallery-wrapper"> 
-                <div class="gallery">
-                     <img class="item current-item" alt="carrossel1" src="Imagens/1.png">
-                     <img class="item " alt="carrossel2" src="Imagens/2.png">
-                     <img class="item " alt="carrossel3" src="Imagens/3.png">
-                     <img class="item " alt="carrossel4" src="Imagens/4.png">
-                     <img class="item " alt="carrossel5" src="Imagens/5.png">
-                </div>  
-            </div>
+          <div class="carousel">
+            <div data-js="carousel__item" class="carousel__item carousel__item--visible">
+                <img alt="1" src="Imagens/1.png" />
+              </div>
+          
+              <div data-js="carousel__item" class="carousel__item">
+                <img alt="2" src="Imagens/2.png" />
+              </div>
+          
+              <div data-js="carousel__item" class="carousel__item">
+                <img alt="3" src="Imagens/3.png" />
+              </div>
+          
+              <div data-js="carousel__item" class="carousel__item">
+                <img alt="4" src="Imagens/4.png" />
+              </div>
+
+              <div data-js="carousel__item" class="carousel__item">
+                <img alt="5" src="Imagens/5.png" />
+              </div>
+
+              <div class="carousel__actions">
+                <button data-js="carousel__button--prev" aria-label="Slide anterior">
+                  <
+                </button>
+          
+                <button data-js="carousel__button--next" aria-label="Próximo slide">
+                  >
+                </button>
+              </div>
          </div>
-     </div>
     </main>
-    <section class="carrossel">
-    </section>
         <div class="biografia">
             <article class="história1" id="Inicio">
              <h1 class="titulo2">Conheça a cientista britânica que escreveu a primeira linguagem assembly, projetou o assembler e o autocode para os primeiros sistemas de computador.</h1>
@@ -82,5 +97,6 @@
             <i>Samantha Sire @ 2023</i>
          </p>
         </section>
+        <script src="Assets/script.js"></script>
     </body>
 </html>
